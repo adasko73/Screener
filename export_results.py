@@ -16,6 +16,7 @@ Usage:
 """
 
 import json
+import math
 import argparse
 from datetime import datetime, timezone
 
@@ -26,6 +27,21 @@ def to_jsonable(obj):
     """Convert numpy/pandas scalar types to plain Python types for json.dump."""
     if hasattr(obj, "item"):
         return obj.item()
+    return obj
+
+
+def sanitize_for_json(obj):
+    """Recursively replace NaN/Infinity floats with None so the output is
+    always valid, parseable JSON (Python's json module otherwise writes
+    literal NaN/Infinity tokens, which break standard JSON parsers/browsers)."""
+    if isinstance(obj, float):
+        if math.isnan(obj) or math.isinf(obj):
+            return None
+        return obj
+    if isinstance(obj, dict):
+        return {k: sanitize_for_json(v) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [sanitize_for_json(v) for v in obj]
     return obj
 
 
@@ -136,8 +152,10 @@ def main():
         "errors": errors,
     }
 
+    output = sanitize_for_json(output)
+
     with open(args.out, "w") as f:
-        json.dump(output, f, indent=2)
+        json.dump(output, f, indent=2, allow_nan=False)
 
     print(f"Wrote {args.out}: {len(all_csp)} CSP, {len(all_cc)} CC, "
           f"{len(all_put_spreads)} put spreads, {len(all_call_spreads)} call spreads. "

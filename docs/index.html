@@ -155,7 +155,7 @@ function cardForSingle(r, earningsDays){
       <div class="card-top"><span class="strike">${r.strike}</span><span class="dte">${r.dte}d</span></div>
       <div class="metrics">
         <div class="metric"><div class="l">Delta</div><div class="v">${r.delta}</div></div>
-        <div class="metric"><div class="l">Price</div><div class="v">$${r.price.toFixed(2)}</div></div>
+        <div class="metric"><div class="l">Price</div><div class="v">$${(r.price ?? 0).toFixed(2)}</div></div>
         <div class="metric"><div class="l">IV</div><div class="v">${r.iv}%</div></div>
         <div class="metric"><div class="l">Ann. Ret</div><div class="v">${r["ann_yield_%"]}%</div></div>
       </div>
