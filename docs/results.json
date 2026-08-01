@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T18:44:08.171164+00:00",
+  "generated_at": "2026-08-01T20:07:50.082552+00:00",
   "config": {
     "dte_min": 1,
     "dte_max": 5,
@@ -2226,12 +2226,12 @@
       "expiration": "2026-08-07",
       "dte": 5,
       "strike": 45.0,
-      "price": NaN,
+      "price": null,
       "delta": -0.001,
       "iv": 189.1,
-      "ann_yield_%": NaN,
+      "ann_yield_%": null,
       "underlying_px": 90.2,
-      "score": NaN
+      "score": null
     },
     {
       "ticker": "TSLA",
@@ -3097,12 +3097,12 @@
       "expiration": "2026-08-07",
       "dte": 5,
       "strike": 170.0,
-      "price": NaN,
+      "price": null,
       "delta": -0.008,
       "iv": 224.6,
-      "ann_yield_%": NaN,
+      "ann_yield_%": null,
       "underlying_px": 308.91,
-      "score": NaN
+      "score": null
     },
     {
       "ticker": "AAPL",
@@ -5946,12 +5946,12 @@
       "expiration": "2026-08-03",
       "dte": 1,
       "strike": 770.0,
-      "price": NaN,
+      "price": null,
       "delta": 0.0,
       "iv": 221.1,
-      "ann_yield_%": NaN,
+      "ann_yield_%": null,
       "underlying_px": 476.15,
-      "score": NaN
+      "score": null
     },
     {
       "ticker": "AMD",
@@ -5959,12 +5959,12 @@
       "expiration": "2026-08-03",
       "dte": 1,
       "strike": 800.0,
-      "price": NaN,
+      "price": null,
       "delta": 0.0,
       "iv": 235.0,
-      "ann_yield_%": NaN,
+      "ann_yield_%": null,
       "underlying_px": 476.15,
-      "score": NaN
+      "score": null
     },
     {
       "ticker": "AMD",
@@ -5972,12 +5972,12 @@
       "expiration": "2026-08-03",
       "dte": 1,
       "strike": 840.0,
-      "price": NaN,
+      "price": null,
       "delta": 0.0,
       "iv": 253.7,
-      "ann_yield_%": NaN,
+      "ann_yield_%": null,
       "underlying_px": 476.15,
-      "score": NaN
+      "score": null
     },
     {
       "ticker": "MU",
@@ -7909,12 +7909,12 @@
       "expiration": "2026-08-07",
       "dte": 5,
       "strike": 2180.0,
-      "price": NaN,
+      "price": null,
       "delta": 0.012,
       "iv": 339.4,
-      "ann_yield_%": NaN,
+      "ann_yield_%": null,
       "underlying_px": 823.03,
-      "score": NaN
+      "score": null
     },
     {
       "ticker": "INTC",
@@ -7974,12 +7974,12 @@
       "expiration": "2026-08-03",
       "dte": 1,
       "strike": 136.0,
-      "price": NaN,
+      "price": null,
       "delta": 0.0,
       "iv": 205.5,
-      "ann_yield_%": NaN,
+      "ann_yield_%": null,
       "underlying_px": 90.2,
-      "score": NaN
+      "score": null
     },
     {
       "ticker": "INTC",
@@ -7987,12 +7987,12 @@
       "expiration": "2026-08-03",
       "dte": 1,
       "strike": 146.0,
-      "price": NaN,
+      "price": null,
       "delta": 0.0,
       "iv": 238.3,
-      "ann_yield_%": NaN,
+      "ann_yield_%": null,
       "underlying_px": 90.2,
-      "score": NaN
+      "score": null
     },
     {
       "ticker": "INTC",
@@ -8039,12 +8039,12 @@
       "expiration": "2026-08-05",
       "dte": 3,
       "strike": 150.0,
-      "price": NaN,
+      "price": null,
       "delta": 0.005,
       "iv": 208.4,
-      "ann_yield_%": NaN,
+      "ann_yield_%": null,
       "underlying_px": 90.2,
-      "score": NaN
+      "score": null
     },
     {
       "ticker": "INTC",
@@ -8624,12 +8624,12 @@
       "expiration": "2026-08-03",
       "dte": 1,
       "strike": 785.0,
-      "price": NaN,
+      "price": null,
       "delta": 0.0,
       "iv": 54.3,
-      "ann_yield_%": NaN,
+      "ann_yield_%": null,
       "underlying_px": 687.99,
-      "score": NaN
+      "score": null
     },
     {
       "ticker": "AVGO",
@@ -9924,12 +9924,12 @@
       "expiration": "2026-08-03",
       "dte": 1,
       "strike": 485.0,
-      "price": NaN,
+      "price": null,
       "delta": 0.0,
       "iv": 90.6,
-      "ann_yield_%": NaN,
+      "ann_yield_%": null,
       "underlying_px": 389.28,
-      "score": NaN
+      "score": null
     },
     {
       "ticker": "AVGO",
@@ -9937,12 +9937,12 @@
       "expiration": "2026-08-03",
       "dte": 1,
       "strike": 500.0,
-      "price": NaN,
+      "price": null,
       "delta": 0.001,
       "iv": 156.1,
-      "ann_yield_%": NaN,
+      "ann_yield_%": null,
       "underlying_px": 389.28,
-      "score": NaN
+      "score": null
     },
     {
       "ticker": "TSLA",
@@ -9989,12 +9989,12 @@
       "expiration": "2026-08-03",
       "dte": 1,
       "strike": 270.0,
-      "price": NaN,
+      "price": null,
       "delta": 0.0,
       "iv": 109.4,
-      "ann_yield_%": NaN,
+      "ann_yield_%": null,
       "underlying_px": 200.75,
-      "score": NaN
+      "score": null
     },
     {
       "ticker": "NVDA",
@@ -10002,12 +10002,12 @@
       "expiration": "2026-08-07",
       "dte": 5,
       "strike": 390.0,
-      "price": NaN,
+      "price": null,
       "delta": 0.0,
       "iv": 150.0,
-      "ann_yield_%": NaN,
+      "ann_yield_%": null,
       "underlying_px": 200.75,
-      "score": NaN
+      "score": null
     },
     {
       "ticker": "AAPL",
@@ -10171,12 +10171,12 @@
       "expiration": "2026-08-03",
       "dte": 1,
       "strike": 520.0,
-      "price": NaN,
+      "price": null,
       "delta": 0.0,
       "iv": 43.0,
-      "ann_yield_%": NaN,
+      "ann_yield_%": null,
       "underlying_px": 464.72,
-      "score": NaN
+      "score": null
     },
     {
       "ticker": "MSFT",
@@ -17734,13 +17734,13 @@
       "short_strike": 136.0,
       "long_strike": 140.0,
       "width": 4.0,
-      "credit": NaN,
+      "credit": null,
       "delta": 0.0,
-      "max_loss": NaN,
+      "max_loss": null,
       "roi_%": 0,
-      "ann_yield_%": NaN,
+      "ann_yield_%": null,
       "underlying_px": 90.2,
-      "score": NaN
+      "score": null
     },
     {
       "ticker": "INTC",
@@ -17750,13 +17750,13 @@
       "short_strike": 146.0,
       "long_strike": 150.0,
       "width": 4.0,
-      "credit": NaN,
+      "credit": null,
       "delta": 0.0,
-      "max_loss": NaN,
+      "max_loss": null,
       "roi_%": 0,
-      "ann_yield_%": NaN,
+      "ann_yield_%": null,
       "underlying_px": 90.2,
-      "score": NaN
+      "score": null
     },
     {
       "ticker": "QQQ",
@@ -18710,13 +18710,13 @@
       "short_strike": 520.0,
       "long_strike": 525.0,
       "width": 5.0,
-      "credit": NaN,
+      "credit": null,
       "delta": 0.0,
-      "max_loss": NaN,
+      "max_loss": null,
       "roi_%": 0,
-      "ann_yield_%": NaN,
+      "ann_yield_%": null,
       "underlying_px": 464.72,
-      "score": NaN
+      "score": null
     },
     {
       "ticker": "MSFT",
