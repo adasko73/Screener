@@ -1,0 +1,37 @@
+name: Run option screener
+
+on:
+  schedule:
+    # Every 15 min, 13:30-20:30 UTC, Mon-Fri.
+    # That's roughly 9:30am-4:30pm ET, covering both EST and EDT with margin.
+    # GitHub's scheduler is best-effort and can lag several minutes under load -
+    # this is a known limitation of free scheduled Actions, not a bug here.
+    - cron: '*/15 13-20 * * 1-5'
+  workflow_dispatch: {}   # lets you trigger a manual run from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scan
+        run: python export_results.py --config screener_config.json --out docs/results.json
+
+      - name: Commit updated results
+        run: |
+          git config user.name "screener-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/results.json
+          git diff --quiet --cached || git commit -m "Update scan results [skip ci]"
+          git push

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wheel Screener</title>
+<style>
+  :root{
+    --bg:#0d1117; --panel:#151b23; --panel2:#1c2430; --border:#2a3341;
+    --text:#e6edf3; --dim:#8b98a5; --green:#3fb950; --red:#f85149; --amber:#d29922; --accent:#4f8cc9;
+    --mono: 'SF Mono', 'Roboto Mono', Consolas, monospace;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0; background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif; -webkit-tap-highlight-color:transparent;}
+  header{padding:14px 16px 10px; border-bottom:1px solid var(--border); position:sticky; top:0; background:var(--bg); z-index:10;}
+  header h1{font-size:16px; margin:0 0 2px; font-weight:600;}
+  .subline{font-size:11px; color:var(--dim); display:flex; justify-content:space-between; align-items:center;}
+  .badge{display:inline-block; padding:2px 7px; border-radius:4px; font-size:10px; font-weight:600;}
+  .badge.live{background:rgba(63,185,80,0.15); color:var(--green); border:1px solid rgba(63,185,80,0.35);}
+  .badge.stale{background:rgba(210,153,34,0.15); color:var(--amber); border:1px solid rgba(210,153,34,0.35);}
+  .badge.err{background:rgba(248,81,73,0.15); color:var(--red); border:1px solid rgba(248,81,73,0.35);}
+  .tabs{display:flex; gap:2px; padding:8px 12px 0; border-bottom:1px solid var(--border); overflow-x:auto;}
+  .tab{flex:1; text-align:center; padding:9px 6px; font-size:12.5px; font-weight:600; color:var(--dim); border-bottom:2px solid transparent; white-space:nowrap; cursor:pointer;}
+  .tab.active{color:var(--accent); border-bottom-color:var(--accent);}
+  .filters{display:flex; gap:6px; padding:10px 12px; overflow-x:auto; border-bottom:1px solid var(--border);}
+  .chip{font-family:var(--mono); font-size:10.5px; color:var(--dim); background:var(--panel2); border:1px solid var(--border); padding:4px 8px; border-radius:12px; white-space:nowrap;}
+  .earnings-strip{padding:8px 12px 4px; border-bottom:1px solid var(--border);}
+  .earnings-strip .title{font-size:10px; color:var(--dim); text-transform:uppercase; letter-spacing:0.4px; margin-bottom:6px;}
+  .eg-row{display:flex; justify-content:space-between; align-items:center; padding:6px 8px; background:var(--panel2); border-radius:6px; margin-bottom:5px; font-family:var(--mono); font-size:12px;}
+  .eg-row .eg-sym{font-weight:700;}
+  .eg-row .eg-date{color:var(--amber);}
+  .eg-row.soon{border:1px solid rgba(248,81,73,0.4);}
+  .eg-row.soon .eg-date{color:var(--red);}
+  main{padding:10px 10px 40px;}
+  .ticker-group{margin-bottom:14px;}
+  .ticker-head{display:flex; justify-content:space-between; align-items:baseline; padding:6px 4px; margin-bottom:6px;}
+  .ticker-head .sym{font-weight:700; font-size:14px;}
+  .ticker-head .px{font-family:var(--mono); font-size:13px;}
+  .ticker-head .chg{font-family:var(--mono); font-size:11px; margin-left:6px;}
+  .up{color:var(--green);} .down{color:var(--red);}
+  .card{background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:10px 12px; margin-bottom:7px;}
+  .card-top{display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;}
+  .strike{font-family:var(--mono); font-weight:700; font-size:14px;}
+  .dte{font-size:10.5px; color:var(--dim); font-family:var(--mono);}
+  .metrics{display:grid; grid-template-columns:repeat(4,1fr); gap:4px; font-family:var(--mono);}
+  .metric .l{font-size:9px; color:var(--dim); text-transform:uppercase; letter-spacing:0.4px;}
+  .metric .v{font-size:12.5px; margin-top:1px;}
+  .earnings-flag{display:inline-block; margin-top:6px; font-size:10px; color:var(--amber); background:rgba(210,153,34,0.12); padding:2px 6px; border-radius:4px;}
+  .empty{padding:30px 16px; text-align:center; color:var(--dim); font-size:13px;}
+  .error-box{margin:10px 12px; padding:8px 10px; background:rgba(248,81,73,0.08); border:1px solid rgba(248,81,73,0.3); border-radius:8px; font-size:11px; color:var(--red); font-family:var(--mono);}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Wheel &amp; Spread Screener</h1>
+  <div class="subline">
+    <span id="statusBadge" class="badge stale">loading…</span>
+    <span id="clock"></span>
+  </div>
+</header>
+
+<div class="tabs" id="tabs">
+  <div class="tab active" data-tab="csp">CSP</div>
+  <div class="tab" data-tab="cc">CC</div>
+  <div class="tab" data-tab="put_spreads">Put Spread</div>
+  <div class="tab" data-tab="call_spreads">Call Spread</div>
+</div>
+
+<div class="earnings-strip" id="earningsStrip"></div>
+<div class="filters" id="filters"></div>
+<div id="errorBox"></div>
+<main id="main"></main>
+
+<script>
+let activeTab = 'csp';
+let DATA = null;
+
+document.getElementById('tabs').addEventListener('click', e=>{
+  const t = e.target.closest('.tab');
+  if(!t) return;
+  document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+  t.classList.add('active');
+  activeTab = t.dataset.tab;
+  render();
+});
+
+async function loadData(){
+  try{
+    const res = await fetch('results.json?_=' + Date.now());
+    if(!res.ok) throw new Error('fetch failed: ' + res.status);
+    DATA = await res.json();
+    render();
+  }catch(err){
+    document.getElementById('statusBadge').className = 'badge err';
+    document.getElementById('statusBadge').textContent = 'load failed';
+    document.getElementById('errorBox').innerHTML =
+      `<div class="error-box">Could not load results.json — ${err.message}. If this is a fresh deploy, the Action may not have run yet.</div>`;
+  }
+}
+
+function setStatusBadge(){
+  const el = document.getElementById('statusBadge');
+  const genAt = new Date(DATA.generated_at);
+  const ageMin = Math.round((Date.now() - genAt.getTime()) / 60000);
+  if(ageMin <= 20){
+    el.className = 'badge live';
+    el.textContent = `live · ${ageMin}m ago`;
+  } else {
+    el.className = 'badge stale';
+    el.textContent = `stale · ${ageMin}m ago`;
+  }
+  document.getElementById('clock').textContent = genAt.toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'});
+}
+
+function renderEarningsStrip(){
+  const el = document.getElementById('earningsStrip');
+  const items = Object.entries(DATA.prices)
+    .map(([sym, p]) => ({sym, days: p.earnings_days}))
+    .filter(x => x.days !== null && x.days !== undefined && x.days >= 0)
+    .sort((a,b) => a.days - b.days);
+
+  if(items.length === 0){ el.innerHTML = ''; return; }
+
+  el.innerHTML = `<div class="title">Upcoming earnings</div>` + items.map(x=>{
+    const soon = x.days <= 10 ? 'soon' : '';
+    return `<div class="eg-row ${soon}"><span class="eg-sym">${x.sym}</span><span class="eg-date">${x.days}d</span></div>`;
+  }).join('');
+}
+
+function renderFilters(){
+  const c = DATA.config;
+  document.getElementById('filters').innerHTML =
+    `<span class="chip">DTE ${c.dte_min}-${c.dte_max}d</span>` +
+    `<span class="chip">Delta tol ${c.delta_tol}</span>` +
+    (c.min_premium != null ? `<span class="chip">Premium $${c.min_premium}-${c.max_premium}</span>` : '') +
+    (c.min_credit != null ? `<span class="chip">Credit $${c.min_credit}-${c.max_credit}</span>` : '') +
+    `<span class="chip">Width $${c.width}</span>`;
+}
+
+function groupByTicker(rows){
+  const groups = {};
+  rows.forEach(r => {
+    if(!groups[r.ticker]) groups[r.ticker] = [];
+    groups[r.ticker].push(r);
+  });
+  return groups;
+}
+
+function cardForSingle(r, earningsDays){
+  const flag = (earningsDays !== null && earningsDays !== undefined && earningsDays >= 0 && earningsDays <= r.dte)
+    ? `<span class="earnings-flag">⚠ Earnings in ${earningsDays}d — before expiry</span>` : '';
+  return `
+    <div class="card">
+      <div class="card-top"><span class="strike">${r.strike}</span><span class="dte">${r.dte}d</span></div>
+      <div class="metrics">
+        <div class="metric"><div class="l">Delta</div><div class="v">${r.delta}</div></div>
+        <div class="metric"><div class="l">Price</div><div class="v">$${r.price.toFixed(2)}</div></div>
+        <div class="metric"><div class="l">IV</div><div class="v">${r.iv}%</div></div>
+        <div class="metric"><div class="l">Ann. Ret</div><div class="v">${r["ann_yield_%"]}%</div></div>
+      </div>
+      ${flag}
+    </div>`;
+}
+
+function cardForSpread(r, earningsDays){
+  const flag = (earningsDays !== null && earningsDays !== undefined && earningsDays >= 0 && earningsDays <= r.dte)
+    ? `<span class="earnings-flag">⚠ Earnings in ${earningsDays}d — before expiry</span>` : '';
+  return `
+    <div class="card">
+      <div class="card-top"><span class="strike">${r.short_strike}/${r.long_strike}</span><span class="dte">${r.dte}d</span></div>
+      <div class="metrics">
+        <div class="metric"><div class="l">Delta</div><div class="v">${r.delta}</div></div>
+        <div class="metric"><div class="l">Credit</div><div class="v">$${r.credit.toFixed(2)}</div></div>
+        <div class="metric"><div class="l">ROI</div><div class="v">${r["roi_%"]}%</div></div>
+        <div class="metric"><div class="l">Ann. Ret</div><div class="v">${r["ann_yield_%"]}%</div></div>
+      </div>
+      ${flag}
+    </div>`;
+}
+
+function render(){
+  if(!DATA) return;
+  setStatusBadge();
+  renderEarningsStrip();
+  renderFilters();
+
+  if(DATA.errors && DATA.errors.length){
+    document.getElementById('errorBox').innerHTML =
+      `<div class="error-box">${DATA.errors.length} ticker(s) had issues: ${DATA.errors.join(' · ')}</div>`;
+  } else {
+    document.getElementById('errorBox').innerHTML = '';
+  }
+
+  const rows = DATA[activeTab] || [];
+  const main = document.getElementById('main');
+  main.innerHTML = '';
+
+  if(rows.length === 0){
+    main.innerHTML = `<div class="empty">No candidates matched your filters for this tab.</div>`;
+    return;
+  }
+
+  const groups = groupByTicker(rows);
+  const isSpread = activeTab === 'put_spreads' || activeTab === 'call_spreads';
+
+  const sortedTickers = Object.keys(groups).sort((a,b)=>{
+    const chgA = Math.abs((DATA.prices[a] && DATA.prices[a].chg_pct) || 0);
+    const chgB = Math.abs((DATA.prices[b] && DATA.prices[b].chg_pct) || 0);
+    return chgB - chgA;
+  });
+
+  sortedTickers.forEach(sym=>{
+    const priceInfo = DATA.prices[sym] || {};
+    const earningsDays = priceInfo.earnings_days;
+    const group = document.createElement('div');
+    group.className = 'ticker-group';
+    const chg = priceInfo.chg_pct;
+    const chgClass = (chg||0) >= 0 ? 'up' : 'down';
+    const chgSign = (chg||0) >= 0 ? '+' : '';
+    const chgText = (chg === null || chg === undefined) ? '' :
+      `<span class="chg ${chgClass}">${chgSign}${chg.toFixed(2)}%</span>`;
+    group.innerHTML = `
+      <div class="ticker-head">
+        <span class="sym">${sym}</span>
+        <span><span class="px">$${(priceInfo.price||0).toFixed(2)}</span>${chgText}</span>
+      </div>
+    `;
+    groups[sym]
+      .sort((a,b)=> (b.score||0) - (a.score||0))
+      .forEach(r=>{
+        group.insertAdjacentHTML('beforeend', isSpread ? cardForSpread(r, earningsDays) : cardForSingle(r, earningsDays));
+      });
+    main.appendChild(group);
+  });
+}
+
+loadData();
+setInterval(loadData, 5 * 60 * 1000); // refresh from results.json every 5 min while page is open
+</script>
+
+</body>
+</html>

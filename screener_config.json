@@ -1,0 +1,34 @@
+{
+  "watchlist": [
+    "DISK",
+    "AMD",
+    "MU",
+    "PLTR",
+    "INTC",
+    "TQQQ",
+    "QQQ",
+    "META",
+    "AVGO",
+    "TSLA",
+    "SPY",
+    "NVDA",
+    "AAPL",
+    "MSFT",
+    "WD"
+  ],
+  "dte_preset": "Custom",
+  "dte_min": 1,
+  "dte_max": 5,
+  "width": 5.0,
+  "delta_tol": 0.5,
+  "min_credit": ".2",
+  "max_credit": "1",
+  "min_premium": "1",
+  "max_premium": "10",
+  "strategies": {
+    "csp": true,
+    "cc": true,
+    "vertical": true
+  },
+  "top_n": 0
+}
