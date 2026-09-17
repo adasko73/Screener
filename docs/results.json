@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T20:34:41.144317+00:00",
+  "generated_at": "2026-09-17T23:07:56.762281+00:00",
   "config": {
     "dte_min": 1,
     "dte_max": 5,
@@ -575,12 +575,12 @@
       "expiration": "2026-09-21",
       "dte": 3,
       "strike": 716.0,
-      "price": 3.77,
+      "price": 3.79,
       "delta": -0.441,
-      "iv": 12.7,
-      "ann_yield_%": 64.06,
+      "iv": 12.8,
+      "ann_yield_%": 64.4,
       "underlying_px": 716.92,
-      "score": 40.48
+      "score": 40.69
     },
     {
       "ticker": "META",
@@ -666,12 +666,12 @@
       "expiration": "2026-09-21",
       "dte": 3,
       "strike": 715.0,
-      "price": 3.33,
-      "delta": -0.393,
-      "iv": 12.7,
-      "ann_yield_%": 56.66,
+      "price": 3.35,
+      "delta": -0.394,
+      "iv": 12.8,
+      "ann_yield_%": 57.0,
       "underlying_px": 716.92,
-      "score": 37.24
+      "score": 37.43
     },
     {
       "ticker": "QQQ",
@@ -679,12 +679,12 @@
       "expiration": "2026-09-22",
       "dte": 4,
       "strike": 716.0,
-      "price": 4.5,
+      "price": 4.53,
       "delta": -0.448,
-      "iv": 13.6,
-      "ann_yield_%": 57.35,
+      "iv": 13.7,
+      "ann_yield_%": 57.73,
       "underlying_px": 716.92,
-      "score": 36.32
+      "score": 36.55
     },
     {
       "ticker": "TSLA",
@@ -731,12 +731,12 @@
       "expiration": "2026-09-22",
       "dte": 4,
       "strike": 715.0,
-      "price": 4.09,
+      "price": 4.11,
       "delta": -0.41,
-      "iv": 13.7,
-      "ann_yield_%": 52.2,
+      "iv": 13.8,
+      "ann_yield_%": 52.45,
       "underlying_px": 716.92,
-      "score": 34.19
+      "score": 34.34
     },
     {
       "ticker": "AMD",
@@ -772,7 +772,7 @@
       "strike": 716.0,
       "price": 5.2,
       "delta": -0.452,
-      "iv": 14.4,
+      "iv": 14.3,
       "ann_yield_%": 53.02,
       "underlying_px": 716.92,
       "score": 33.66
@@ -796,12 +796,12 @@
       "expiration": "2026-09-21",
       "dte": 3,
       "strike": 761.0,
-      "price": 3.13,
-      "delta": -0.4,
+      "price": 3.11,
+      "delta": -0.399,
       "iv": 10.9,
-      "ann_yield_%": 50.04,
+      "ann_yield_%": 49.72,
       "underlying_px": 762.6,
-      "score": 33.01
+      "score": 32.85
     },
     {
       "ticker": "QQQ",
@@ -822,12 +822,12 @@
       "expiration": "2026-09-21",
       "dte": 3,
       "strike": 713.0,
-      "price": 2.6,
-      "delta": -0.306,
+      "price": 2.61,
+      "delta": -0.307,
       "iv": 12.9,
-      "ann_yield_%": 44.37,
+      "ann_yield_%": 44.54,
       "underlying_px": 716.92,
-      "score": 32.05
+      "score": 32.13
     },
     {
       "ticker": "QQQ",
@@ -835,12 +835,12 @@
       "expiration": "2026-09-23",
       "dte": 5,
       "strike": 715.0,
-      "price": 4.76,
+      "price": 4.78,
       "delta": -0.419,
-      "iv": 14.4,
-      "ann_yield_%": 48.6,
+      "iv": 14.5,
+      "ann_yield_%": 48.8,
       "underlying_px": 716.92,
-      "score": 31.83
+      "score": 31.96
     },
     {
       "ticker": "MU",
@@ -895,6 +895,19 @@
       "score": 30.46
     },
     {
+      "ticker": "QQQ",
+      "strategy": "CSP",
+      "expiration": "2026-09-23",
+      "dte": 5,
+      "strike": 714.0,
+      "price": 4.38,
+      "delta": -0.388,
+      "iv": 14.6,
+      "ann_yield_%": 44.78,
+      "underlying_px": 716.92,
+      "score": 30.32
+    },
+    {
       "ticker": "AMD",
       "strategy": "CSP",
       "expiration": "2026-09-23",
@@ -906,19 +919,6 @@
       "ann_yield_%": 45.58,
       "underlying_px": 545.09,
       "score": 30.28
-    },
-    {
-      "ticker": "QQQ",
-      "strategy": "CSP",
-      "expiration": "2026-09-23",
-      "dte": 5,
-      "strike": 714.0,
-      "price": 4.36,
-      "delta": -0.388,
-      "iv": 14.5,
-      "ann_yield_%": 44.58,
-      "underlying_px": 716.92,
-      "score": 30.2
     },
     {
       "ticker": "SPY",
@@ -965,12 +965,12 @@
       "expiration": "2026-09-21",
       "dte": 3,
       "strike": 712.0,
-      "price": 2.32,
+      "price": 2.31,
       "delta": -0.268,
       "iv": 13.1,
-      "ann_yield_%": 39.64,
+      "ann_yield_%": 39.47,
       "underlying_px": 716.92,
-      "score": 28.57
+      "score": 28.47
     },
     {
       "ticker": "TSLA",
@@ -1004,12 +1004,12 @@
       "expiration": "2026-09-21",
       "dte": 3,
       "strike": 759.0,
-      "price": 2.32,
-      "delta": -0.301,
+      "price": 2.33,
+      "delta": -0.302,
       "iv": 10.9,
-      "ann_yield_%": 37.19,
+      "ann_yield_%": 37.35,
       "underlying_px": 762.6,
-      "score": 27.78
+      "score": 27.85
     },
     {
       "ticker": "QQQ",
@@ -1134,12 +1134,25 @@
       "expiration": "2026-09-21",
       "dte": 3,
       "strike": 711.0,
-      "price": 2.03,
-      "delta": -0.232,
-      "iv": 13.1,
-      "ann_yield_%": 34.74,
+      "price": 2.04,
+      "delta": -0.233,
+      "iv": 13.2,
+      "ann_yield_%": 34.91,
       "underlying_px": 716.92,
-      "score": 24.73
+      "score": 24.86
+    },
+    {
+      "ticker": "QQQ",
+      "strategy": "CSP",
+      "expiration": "2026-09-23",
+      "dte": 5,
+      "strike": 710.0,
+      "price": 3.1,
+      "delta": -0.277,
+      "iv": 15.1,
+      "ann_yield_%": 31.87,
+      "underlying_px": 716.92,
+      "score": 24.23
     },
     {
       "ticker": "AMD",
@@ -1155,30 +1168,17 @@
       "score": 24.22
     },
     {
-      "ticker": "QQQ",
-      "strategy": "CSP",
-      "expiration": "2026-09-23",
-      "dte": 5,
-      "strike": 710.0,
-      "price": 3.09,
-      "delta": -0.277,
-      "iv": 15.1,
-      "ann_yield_%": 31.77,
-      "underlying_px": 716.92,
-      "score": 24.17
-    },
-    {
       "ticker": "SPY",
       "strategy": "CSP",
       "expiration": "2026-09-21",
       "dte": 3,
       "strike": 758.0,
-      "price": 2.02,
+      "price": 2.01,
       "delta": -0.259,
       "iv": 11.0,
-      "ann_yield_%": 32.42,
+      "ann_yield_%": 32.26,
       "underlying_px": 762.6,
-      "score": 23.92
+      "score": 23.83
     },
     {
       "ticker": "META",
@@ -1199,12 +1199,12 @@
       "expiration": "2026-09-22",
       "dte": 4,
       "strike": 710.0,
-      "price": 2.48,
+      "price": 2.49,
       "delta": -0.247,
       "iv": 14.4,
-      "ann_yield_%": 31.87,
+      "ann_yield_%": 32.0,
       "underlying_px": 716.92,
-      "score": 23.44
+      "score": 23.52
     },
     {
       "ticker": "AMD",
@@ -1220,19 +1220,6 @@
       "score": 22.34
     },
     {
-      "ticker": "QQQ",
-      "strategy": "CSP",
-      "expiration": "2026-09-23",
-      "dte": 5,
-      "strike": 709.0,
-      "price": 2.85,
-      "delta": -0.254,
-      "iv": 15.3,
-      "ann_yield_%": 29.34,
-      "underlying_px": 716.92,
-      "score": 22.14
-    },
-    {
       "ticker": "MU",
       "strategy": "CSP",
       "expiration": "2026-09-21",
@@ -1244,6 +1231,19 @@
       "ann_yield_%": 33.8,
       "underlying_px": 977.5,
       "score": 22.11
+    },
+    {
+      "ticker": "QQQ",
+      "strategy": "CSP",
+      "expiration": "2026-09-23",
+      "dte": 5,
+      "strike": 709.0,
+      "price": 2.84,
+      "delta": -0.253,
+      "iv": 15.3,
+      "ann_yield_%": 29.24,
+      "underlying_px": 716.92,
+      "score": 22.06
     },
     {
       "ticker": "META",
@@ -1272,6 +1272,19 @@
       "score": 21.74
     },
     {
+      "ticker": "QQQ",
+      "strategy": "CSP",
+      "expiration": "2026-09-21",
+      "dte": 3,
+      "strike": 710.0,
+      "price": 1.8,
+      "delta": -0.201,
+      "iv": 13.4,
+      "ann_yield_%": 30.85,
+      "underlying_px": 716.92,
+      "score": 21.64
+    },
+    {
       "ticker": "AMD",
       "strategy": "CSP",
       "expiration": "2026-09-23",
@@ -1283,19 +1296,6 @@
       "ann_yield_%": 32.24,
       "underlying_px": 545.09,
       "score": 21.58
-    },
-    {
-      "ticker": "QQQ",
-      "strategy": "CSP",
-      "expiration": "2026-09-21",
-      "dte": 3,
-      "strike": 710.0,
-      "price": 1.78,
-      "delta": -0.2,
-      "iv": 13.3,
-      "ann_yield_%": 30.5,
-      "underlying_px": 716.92,
-      "score": 21.4
     },
     {
       "ticker": "QQQ",
@@ -1357,10 +1357,10 @@
       "strike": 708.0,
       "price": 2.61,
       "delta": -0.231,
-      "iv": 15.5,
+      "iv": 15.4,
       "ann_yield_%": 26.91,
       "underlying_px": 716.92,
-      "score": 20.12
+      "score": 20.11
     },
     {
       "ticker": "AMD",
@@ -1389,6 +1389,19 @@
       "score": 18.89
     },
     {
+      "ticker": "QQQ",
+      "strategy": "CSP",
+      "expiration": "2026-09-21",
+      "dte": 3,
+      "strike": 709.0,
+      "price": 1.59,
+      "delta": -0.173,
+      "iv": 13.5,
+      "ann_yield_%": 27.28,
+      "underlying_px": 716.92,
+      "score": 18.8
+    },
+    {
       "ticker": "MU",
       "strategy": "CSP",
       "expiration": "2026-09-21",
@@ -1400,19 +1413,6 @@
       "ann_yield_%": 28.17,
       "underlying_px": 977.5,
       "score": 18.76
-    },
-    {
-      "ticker": "QQQ",
-      "strategy": "CSP",
-      "expiration": "2026-09-21",
-      "dte": 3,
-      "strike": 709.0,
-      "price": 1.58,
-      "delta": -0.173,
-      "iv": 13.5,
-      "ann_yield_%": 27.11,
-      "underlying_px": 716.92,
-      "score": 18.7
     },
     {
       "ticker": "AMD",
@@ -1467,19 +1467,6 @@
       "score": 17.53
     },
     {
-      "ticker": "SPY",
-      "strategy": "CSP",
-      "expiration": "2026-09-21",
-      "dte": 3,
-      "strike": 756.0,
-      "price": 1.51,
-      "delta": -0.186,
-      "iv": 11.3,
-      "ann_yield_%": 24.3,
-      "underlying_px": 762.6,
-      "score": 17.24
-    },
-    {
       "ticker": "AMD",
       "strategy": "CSP",
       "expiration": "2026-09-21",
@@ -1491,6 +1478,19 @@
       "ann_yield_%": 25.17,
       "underlying_px": 545.09,
       "score": 17.13
+    },
+    {
+      "ticker": "SPY",
+      "strategy": "CSP",
+      "expiration": "2026-09-21",
+      "dte": 3,
+      "strike": 756.0,
+      "price": 1.5,
+      "delta": -0.185,
+      "iv": 11.2,
+      "ann_yield_%": 24.14,
+      "underlying_px": 762.6,
+      "score": 17.11
     },
     {
       "ticker": "QQQ",
@@ -1524,12 +1524,25 @@
       "expiration": "2026-09-23",
       "dte": 5,
       "strike": 706.0,
-      "price": 2.19,
-      "delta": -0.191,
+      "price": 2.2,
+      "delta": -0.192,
       "iv": 15.8,
-      "ann_yield_%": 22.64,
+      "ann_yield_%": 22.75,
       "underlying_px": 716.92,
-      "score": 16.57
+      "score": 16.66
+    },
+    {
+      "ticker": "QQQ",
+      "strategy": "CSP",
+      "expiration": "2026-09-21",
+      "dte": 3,
+      "strike": 708.0,
+      "price": 1.41,
+      "delta": -0.148,
+      "iv": 13.7,
+      "ann_yield_%": 24.23,
+      "underlying_px": 716.92,
+      "score": 16.35
     },
     {
       "ticker": "AMD",
@@ -1543,19 +1556,6 @@
       "ann_yield_%": 23.33,
       "underlying_px": 545.09,
       "score": 16.28
-    },
-    {
-      "ticker": "QQQ",
-      "strategy": "CSP",
-      "expiration": "2026-09-21",
-      "dte": 3,
-      "strike": 708.0,
-      "price": 1.4,
-      "delta": -0.148,
-      "iv": 13.7,
-      "ann_yield_%": 24.06,
-      "underlying_px": 716.92,
-      "score": 16.25
     },
     {
       "ticker": "MU",
@@ -1641,12 +1641,12 @@
       "expiration": "2026-09-21",
       "dte": 3,
       "strike": 755.0,
-      "price": 1.29,
-      "delta": -0.155,
-      "iv": 11.3,
-      "ann_yield_%": 20.79,
+      "price": 1.3,
+      "delta": -0.156,
+      "iv": 11.4,
+      "ann_yield_%": 20.95,
       "underlying_px": 762.6,
-      "score": 14.36
+      "score": 14.48
     },
     {
       "ticker": "QQQ",
@@ -1654,12 +1654,12 @@
       "expiration": "2026-09-21",
       "dte": 3,
       "strike": 707.0,
-      "price": 1.24,
+      "price": 1.25,
       "delta": -0.127,
       "iv": 13.9,
-      "ann_yield_%": 21.34,
+      "ann_yield_%": 21.51,
       "underlying_px": 716.92,
-      "score": 14.1
+      "score": 14.21
     },
     {
       "ticker": "AMD",
@@ -1706,12 +1706,12 @@
       "expiration": "2026-09-22",
       "dte": 4,
       "strike": 705.0,
-      "price": 1.51,
-      "delta": -0.139,
-      "iv": 15.3,
-      "ann_yield_%": 19.54,
+      "price": 1.52,
+      "delta": -0.14,
+      "iv": 15.4,
+      "ann_yield_%": 19.67,
       "underlying_px": 716.92,
-      "score": 13.39
+      "score": 13.5
     },
     {
       "ticker": "MU",
@@ -1784,12 +1784,12 @@
       "expiration": "2026-09-21",
       "dte": 3,
       "strike": 754.0,
-      "price": 1.13,
+      "price": 1.12,
       "delta": -0.131,
       "iv": 11.5,
-      "ann_yield_%": 18.23,
+      "ann_yield_%": 18.07,
       "underlying_px": 762.6,
-      "score": 12.23
+      "score": 12.13
     },
     {
       "ticker": "QQQ",
@@ -1798,11 +1798,11 @@
       "dte": 4,
       "strike": 704.0,
       "price": 1.38,
-      "delta": -0.124,
-      "iv": 15.5,
+      "delta": -0.125,
+      "iv": 15.6,
       "ann_yield_%": 17.89,
       "underlying_px": 716.92,
-      "score": 12.03
+      "score": 12.06
     },
     {
       "ticker": "META",
@@ -1849,12 +1849,12 @@
       "expiration": "2026-09-23",
       "dte": 5,
       "strike": 702.0,
-      "price": 1.58,
+      "price": 1.57,
       "delta": -0.13,
-      "iv": 16.6,
-      "ann_yield_%": 16.43,
+      "iv": 16.5,
+      "ann_yield_%": 16.33,
       "underlying_px": 716.92,
-      "score": 11.35
+      "score": 11.29
     },
     {
       "ticker": "QQQ",
@@ -1942,10 +1942,10 @@
       "strike": 701.0,
       "price": 1.04,
       "delta": -0.087,
-      "iv": 16.2,
+      "iv": 16.3,
       "ann_yield_%": 13.54,
       "underlying_px": 716.92,
-      "score": 8.85
+      "score": 8.86
     },
     {
       "ticker": "QQQ",
@@ -1953,12 +1953,12 @@
       "expiration": "2026-09-23",
       "dte": 5,
       "strike": 699.0,
-      "price": 1.24,
+      "price": 1.23,
       "delta": -0.097,
       "iv": 17.2,
-      "ann_yield_%": 12.95,
+      "ann_yield_%": 12.85,
       "underlying_px": 716.92,
-      "score": 8.54
+      "score": 8.48
     },
     {
       "ticker": "QQQ",
@@ -2109,12 +2109,12 @@
       "expiration": "2026-09-21",
       "dte": 3,
       "strike": 762.0,
-      "price": 3.59,
+      "price": 3.55,
       "delta": -0.452,
-      "iv": 11.1,
-      "ann_yield_%": 57.32,
+      "iv": 11.0,
+      "ann_yield_%": 56.68,
       "underlying_px": 762.6,
-      "score": 36.09
+      "score": 35.7
     },
     {
       "ticker": "NVDA",
@@ -2200,12 +2200,12 @@
       "expiration": "2026-09-23",
       "dte": 5,
       "strike": 762.0,
-      "price": 4.57,
+      "price": 4.59,
       "delta": -0.456,
       "iv": 11.7,
-      "ann_yield_%": 43.78,
+      "ann_yield_%": 43.97,
       "underlying_px": 762.6,
-      "score": 27.89
+      "score": 28.01
     },
     {
       "ticker": "SPY",
@@ -2278,12 +2278,12 @@
       "expiration": "2026-09-23",
       "dte": 5,
       "strike": 760.0,
-      "price": 3.73,
+      "price": 3.74,
       "delta": -0.383,
       "iv": 11.8,
-      "ann_yield_%": 35.83,
+      "ann_yield_%": 35.92,
       "underlying_px": 762.6,
-      "score": 24.95
+      "score": 25.01
     },
     {
       "ticker": "SPY",
@@ -2473,12 +2473,12 @@
       "expiration": "2026-09-23",
       "dte": 5,
       "strike": 753.0,
-      "price": 1.82,
+      "price": 1.81,
       "delta": -0.184,
       "iv": 12.7,
-      "ann_yield_%": 17.64,
+      "ann_yield_%": 17.55,
       "underlying_px": 762.6,
-      "score": 13.26
+      "score": 13.2
     },
     {
       "ticker": "SPY",
@@ -2526,24 +2526,11 @@
       "dte": 5,
       "strike": 751.0,
       "price": 1.49,
-      "delta": -0.146,
-      "iv": 13.0,
+      "delta": -0.147,
+      "iv": 13.1,
       "ann_yield_%": 14.48,
       "underlying_px": 762.6,
-      "score": 10.42
-    },
-    {
-      "ticker": "SPY",
-      "strategy": "CSP",
-      "expiration": "2026-09-23",
-      "dte": 5,
-      "strike": 750.0,
-      "price": 1.36,
-      "delta": -0.131,
-      "iv": 13.2,
-      "ann_yield_%": 13.24,
-      "underlying_px": 762.6,
-      "score": 9.31
+      "score": 10.45
     },
     {
       "ticker": "SPY",
@@ -2557,6 +2544,19 @@
       "ann_yield_%": 13.73,
       "underlying_px": 762.6,
       "score": 9.21
+    },
+    {
+      "ticker": "SPY",
+      "strategy": "CSP",
+      "expiration": "2026-09-23",
+      "dte": 5,
+      "strike": 750.0,
+      "price": 1.34,
+      "delta": -0.13,
+      "iv": 13.2,
+      "ann_yield_%": 13.04,
+      "underlying_px": 762.6,
+      "score": 9.17
     },
     {
       "ticker": "SPY",
@@ -2590,12 +2590,12 @@
       "expiration": "2026-09-23",
       "dte": 5,
       "strike": 697.0,
-      "price": 1.04,
-      "delta": -0.079,
+      "price": 1.05,
+      "delta": -0.08,
       "iv": 17.6,
-      "ann_yield_%": 10.89,
+      "ann_yield_%": 11.0,
       "underlying_px": 716.92,
-      "score": 7.33
+      "score": 7.39
     },
     {
       "ticker": "SPY",
@@ -3385,12 +3385,12 @@
       "expiration": "2026-09-21",
       "dte": 3,
       "strike": 717.0,
-      "price": 3.19,
+      "price": 3.18,
       "delta": 0.513,
-      "iv": 9.8,
-      "ann_yield_%": 54.13,
+      "iv": 9.7,
+      "ann_yield_%": 53.96,
       "underlying_px": 716.92,
-      "score": 32.92
+      "score": 32.81
     },
     {
       "ticker": "META",
@@ -3437,12 +3437,12 @@
       "expiration": "2026-09-23",
       "dte": 5,
       "strike": 717.0,
-      "price": 4.67,
+      "price": 4.65,
       "delta": 0.517,
-      "iv": 12.0,
-      "ann_yield_%": 47.55,
+      "iv": 11.9,
+      "ann_yield_%": 47.34,
       "underlying_px": 716.92,
-      "score": 29.07
+      "score": 28.94
     },
     {
       "ticker": "QQQ",
@@ -3502,12 +3502,12 @@
       "expiration": "2026-09-22",
       "dte": 4,
       "strike": 719.0,
-      "price": 2.99,
+      "price": 2.97,
       "delta": 0.418,
       "iv": 10.8,
-      "ann_yield_%": 37.95,
+      "ann_yield_%": 37.69,
       "underlying_px": 716.92,
-      "score": 25.31
+      "score": 25.15
     },
     {
       "ticker": "QQQ",
@@ -3515,12 +3515,12 @@
       "expiration": "2026-09-23",
       "dte": 5,
       "strike": 719.0,
-      "price": 3.67,
+      "price": 3.65,
       "delta": 0.437,
-      "iv": 11.8,
-      "ann_yield_%": 37.26,
+      "iv": 11.7,
+      "ann_yield_%": 37.06,
       "underlying_px": 716.92,
-      "score": 24.46
+      "score": 24.34
     },
     {
       "ticker": "QQQ",
@@ -3528,12 +3528,12 @@
       "expiration": "2026-09-21",
       "dte": 3,
       "strike": 720.0,
-      "price": 1.89,
-      "delta": 0.328,
-      "iv": 9.6,
-      "ann_yield_%": 31.94,
+      "price": 1.87,
+      "delta": 0.327,
+      "iv": 9.5,
+      "ann_yield_%": 31.6,
       "underlying_px": 716.92,
-      "score": 23.9
+      "score": 23.71
     },
     {
       "ticker": "QQQ",
@@ -3554,12 +3554,12 @@
       "expiration": "2026-09-23",
       "dte": 5,
       "strike": 720.0,
-      "price": 3.22,
-      "delta": 0.397,
-      "iv": 11.7,
-      "ann_yield_%": 32.65,
+      "price": 3.2,
+      "delta": 0.396,
+      "iv": 11.6,
+      "ann_yield_%": 32.44,
       "underlying_px": 716.92,
-      "score": 22.69
+      "score": 22.59
     },
     {
       "ticker": "QQQ",
@@ -3593,12 +3593,12 @@
       "expiration": "2026-09-23",
       "dte": 5,
       "strike": 721.0,
-      "price": 2.8,
-      "delta": 0.357,
+      "price": 2.79,
+      "delta": 0.356,
       "iv": 11.5,
-      "ann_yield_%": 28.35,
+      "ann_yield_%": 28.25,
       "underlying_px": 716.92,
-      "score": 21.1
+      "score": 21.07
     },
     {
       "ticker": "QQQ",
@@ -3606,12 +3606,12 @@
       "expiration": "2026-09-21",
       "dte": 3,
       "strike": 721.0,
-      "price": 1.52,
-      "delta": 0.269,
-      "iv": 9.4,
-      "ann_yield_%": 25.65,
+      "price": 1.53,
+      "delta": 0.27,
+      "iv": 9.5,
+      "ann_yield_%": 25.82,
       "underlying_px": 716.92,
-      "score": 20.04
+      "score": 20.17
     },
     {
       "ticker": "QQQ",
@@ -3658,12 +3658,12 @@
       "expiration": "2026-09-23",
       "dte": 5,
       "strike": 723.0,
-      "price": 2.07,
-      "delta": 0.279,
+      "price": 2.06,
+      "delta": 0.278,
       "iv": 11.3,
-      "ann_yield_%": 20.9,
+      "ann_yield_%": 20.8,
       "underlying_px": 716.92,
-      "score": 17.52
+      "score": 17.44
     },
     {
       "ticker": "QQQ",
@@ -3671,12 +3671,12 @@
       "expiration": "2026-09-21",
       "dte": 3,
       "strike": 722.0,
-      "price": 1.24,
-      "delta": 0.219,
+      "price": 1.23,
+      "delta": 0.217,
       "iv": 9.4,
-      "ann_yield_%": 20.9,
+      "ann_yield_%": 20.73,
       "underlying_px": 716.92,
-      "score": 15.94
+      "score": 15.79
     },
     {
       "ticker": "QQQ",
@@ -3684,12 +3684,12 @@
       "expiration": "2026-09-22",
       "dte": 4,
       "strike": 723.0,
-      "price": 1.5,
+      "price": 1.51,
       "delta": 0.233,
       "iv": 10.4,
-      "ann_yield_%": 18.93,
+      "ann_yield_%": 19.06,
       "underlying_px": 716.92,
-      "score": 15.15
+      "score": 15.23
     },
     {
       "ticker": "META",
@@ -3736,12 +3736,12 @@
       "expiration": "2026-09-22",
       "dte": 4,
       "strike": 724.0,
-      "price": 1.23,
+      "price": 1.24,
       "delta": 0.194,
       "iv": 10.3,
-      "ann_yield_%": 15.5,
+      "ann_yield_%": 15.63,
       "underlying_px": 716.92,
-      "score": 12.11
+      "score": 12.19
     },
     {
       "ticker": "QQQ",
@@ -3749,12 +3749,12 @@
       "expiration": "2026-09-23",
       "dte": 5,
       "strike": 725.0,
-      "price": 1.47,
+      "price": 1.48,
       "delta": 0.208,
       "iv": 11.0,
-      "ann_yield_%": 14.8,
+      "ann_yield_%": 14.9,
       "underlying_px": 716.92,
-      "score": 12.08
+      "score": 12.14
     },
     {
       "ticker": "QQQ",
@@ -3762,12 +3762,12 @@
       "expiration": "2026-09-23",
       "dte": 5,
       "strike": 726.0,
-      "price": 1.24,
-      "delta": 0.178,
+      "price": 1.23,
+      "delta": 0.177,
       "iv": 11.0,
-      "ann_yield_%": 12.47,
+      "ann_yield_%": 12.37,
       "underlying_px": 716.92,
-      "score": 9.93
+      "score": 9.84
     },
     {
       "ticker": "QQQ",
@@ -3776,11 +3776,11 @@
       "dte": 4,
       "strike": 725.0,
       "price": 1.01,
-      "delta": 0.16,
+      "delta": 0.159,
       "iv": 10.2,
       "ann_yield_%": 12.71,
       "underlying_px": 716.92,
-      "score": 9.59
+      "score": 9.56
     },
     {
       "ticker": "QQQ",
@@ -4204,12 +4204,12 @@
       "expiration": "2026-09-21",
       "dte": 3,
       "strike": 763.0,
-      "price": 1.93,
+      "price": 1.94,
       "delta": 0.49,
-      "iv": 6.0,
-      "ann_yield_%": 30.78,
+      "iv": 6.1,
+      "ann_yield_%": 30.93,
       "underlying_px": 762.6,
-      "score": 18.99
+      "score": 19.08
     },
     {
       "ticker": "META",
@@ -4243,12 +4243,12 @@
       "expiration": "2026-09-22",
       "dte": 4,
       "strike": 764.0,
-      "price": 2.08,
+      "price": 2.07,
       "delta": 0.429,
       "iv": 7.0,
-      "ann_yield_%": 24.84,
+      "ann_yield_%": 24.72,
       "underlying_px": 762.6,
-      "score": 16.99
+      "score": 16.92
     },
     {
       "ticker": "SPY",
@@ -4269,12 +4269,12 @@
       "expiration": "2026-09-22",
       "dte": 4,
       "strike": 765.0,
-      "price": 1.66,
-      "delta": 0.359,
-      "iv": 6.9,
-      "ann_yield_%": 19.8,
+      "price": 1.68,
+      "delta": 0.36,
+      "iv": 7.0,
+      "ann_yield_%": 20.04,
       "underlying_px": 762.6,
-      "score": 15.72
+      "score": 15.84
     },
     {
       "ticker": "TSLA",
@@ -4334,12 +4334,12 @@
       "expiration": "2026-09-22",
       "dte": 4,
       "strike": 767.0,
-      "price": 1.03,
-      "delta": 0.235,
-      "iv": 6.9,
-      "ann_yield_%": 12.25,
+      "price": 1.05,
+      "delta": 0.236,
+      "iv": 7.0,
+      "ann_yield_%": 12.49,
       "underlying_px": 762.6,
-      "score": 11.04
+      "score": 11.21
     },
     {
       "ticker": "META",
@@ -4906,12 +4906,12 @@
       "expiration": "2026-09-22",
       "dte": 4,
       "strike": 763.0,
-      "price": 2.51,
+      "price": 2.52,
       "delta": 0.5,
       "iv": 7.0,
-      "ann_yield_%": 30.02,
+      "ann_yield_%": 30.14,
       "underlying_px": 762.6,
-      "score": 18.33
+      "score": 18.4
     },
     {
       "ticker": "SPY",
@@ -4945,12 +4945,12 @@
       "expiration": "2026-09-23",
       "dte": 5,
       "strike": 765.0,
-      "price": 2.15,
+      "price": 2.16,
       "delta": 0.391,
       "iv": 7.7,
-      "ann_yield_%": 20.52,
+      "ann_yield_%": 20.61,
       "underlying_px": 762.6,
-      "score": 15.38
+      "score": 15.44
     },
     {
       "ticker": "MSFT",
@@ -4971,12 +4971,12 @@
       "expiration": "2026-09-23",
       "dte": 5,
       "strike": 767.0,
-      "price": 1.45,
-      "delta": 0.283,
+      "price": 1.46,
+      "delta": 0.284,
       "iv": 7.6,
-      "ann_yield_%": 13.8,
+      "ann_yield_%": 13.9,
       "underlying_px": 762.6,
-      "score": 13.2
+      "score": 13.28
     },
     {
       "ticker": "MSFT",
@@ -5026,6 +5026,22 @@
       "score": 1715.22
     },
     {
+      "ticker": "QQQ",
+      "strategy": "BULL PUT SPR",
+      "expiration": "2026-09-21",
+      "dte": 3,
+      "short_strike": 711.0,
+      "long_strike": 706.0,
+      "width": 5.0,
+      "credit": 0.92,
+      "delta": -0.233,
+      "max_loss": 4.08,
+      "roi_%": 22.5,
+      "ann_yield_%": 2743.46,
+      "underlying_px": 716.92,
+      "score": 1649.4
+    },
+    {
       "ticker": "INTC",
       "strategy": "BULL PUT SPR",
       "expiration": "2026-09-21",
@@ -5040,22 +5056,6 @@
       "ann_yield_%": 2707.01,
       "underlying_px": 108.8,
       "score": 1628.41
-    },
-    {
-      "ticker": "QQQ",
-      "strategy": "BULL PUT SPR",
-      "expiration": "2026-09-21",
-      "dte": 3,
-      "short_strike": 711.0,
-      "long_strike": 706.0,
-      "width": 5.0,
-      "credit": 0.91,
-      "delta": -0.232,
-      "max_loss": 4.09,
-      "roi_%": 22.2,
-      "ann_yield_%": 2707.01,
-      "underlying_px": 716.92,
-      "score": 1627.51
     },
     {
       "ticker": "MU",
@@ -5138,6 +5138,22 @@
       "score": 1433.48
     },
     {
+      "ticker": "QQQ",
+      "strategy": "BULL PUT SPR",
+      "expiration": "2026-09-21",
+      "dte": 3,
+      "short_strike": 710.0,
+      "long_strike": 705.0,
+      "width": 5.0,
+      "credit": 0.8,
+      "delta": -0.201,
+      "max_loss": 4.2,
+      "roi_%": 19.0,
+      "ann_yield_%": 2317.46,
+      "underlying_px": 716.92,
+      "score": 1393.0
+    },
+    {
       "ticker": "TQQQ",
       "strategy": "BULL PUT SPR",
       "expiration": "2026-09-21",
@@ -5152,22 +5168,6 @@
       "ann_yield_%": 2317.46,
       "underlying_px": 71.38,
       "score": 1392.4
-    },
-    {
-      "ticker": "QQQ",
-      "strategy": "BULL PUT SPR",
-      "expiration": "2026-09-21",
-      "dte": 3,
-      "short_strike": 710.0,
-      "long_strike": 705.0,
-      "width": 5.0,
-      "credit": 0.79,
-      "delta": -0.2,
-      "max_loss": 4.21,
-      "roi_%": 18.8,
-      "ann_yield_%": 2283.06,
-      "underlying_px": 716.92,
-      "score": 1372.34
     },
     {
       "ticker": "SPY",
@@ -5186,22 +5186,6 @@
       "score": 1355.66
     },
     {
-      "ticker": "SPY",
-      "strategy": "BULL PUT SPR",
-      "expiration": "2026-09-21",
-      "dte": 3,
-      "short_strike": 756.0,
-      "long_strike": 751.0,
-      "width": 5.0,
-      "credit": 0.75,
-      "delta": -0.186,
-      "max_loss": 4.25,
-      "roi_%": 17.6,
-      "ann_yield_%": 2147.06,
-      "underlying_px": 762.6,
-      "score": 1290.39
-    },
-    {
       "ticker": "QQQ",
       "strategy": "BULL PUT SPR",
       "expiration": "2026-09-22",
@@ -5216,6 +5200,22 @@
       "ann_yield_%": 2140.43,
       "underlying_px": 716.92,
       "score": 1287.93
+    },
+    {
+      "ticker": "SPY",
+      "strategy": "BULL PUT SPR",
+      "expiration": "2026-09-21",
+      "dte": 3,
+      "short_strike": 756.0,
+      "long_strike": 751.0,
+      "width": 5.0,
+      "credit": 0.74,
+      "delta": -0.185,
+      "max_loss": 4.26,
+      "roi_%": 17.4,
+      "ann_yield_%": 2113.46,
+      "underlying_px": 762.6,
+      "score": 1270.2
     },
     {
       "ticker": "AVGO",
@@ -5346,22 +5346,6 @@
       "score": 1156.53
     },
     {
-      "ticker": "QQQ",
-      "strategy": "BULL PUT SPR",
-      "expiration": "2026-09-22",
-      "dte": 4,
-      "short_strike": 709.0,
-      "long_strike": 704.0,
-      "width": 5.0,
-      "credit": 0.86,
-      "delta": -0.221,
-      "max_loss": 4.14,
-      "roi_%": 20.8,
-      "ann_yield_%": 1895.53,
-      "underlying_px": 716.92,
-      "score": 1140.34
-    },
-    {
       "ticker": "META",
       "strategy": "BULL PUT SPR",
       "expiration": "2026-09-21",
@@ -5380,18 +5364,50 @@
     {
       "ticker": "QQQ",
       "strategy": "BULL PUT SPR",
+      "expiration": "2026-09-22",
+      "dte": 4,
+      "short_strike": 709.0,
+      "long_strike": 704.0,
+      "width": 5.0,
+      "credit": 0.85,
+      "delta": -0.221,
+      "max_loss": 4.15,
+      "roi_%": 20.5,
+      "ann_yield_%": 1868.98,
+      "underlying_px": 716.92,
+      "score": 1124.41
+    },
+    {
+      "ticker": "SPY",
+      "strategy": "BULL PUT SPR",
+      "expiration": "2026-09-21",
+      "dte": 3,
+      "short_strike": 755.0,
+      "long_strike": 750.0,
+      "width": 5.0,
+      "credit": 0.64,
+      "delta": -0.156,
+      "max_loss": 4.36,
+      "roi_%": 14.7,
+      "ann_yield_%": 1785.93,
+      "underlying_px": 762.6,
+      "score": 1072.96
+    },
+    {
+      "ticker": "QQQ",
+      "strategy": "BULL PUT SPR",
       "expiration": "2026-09-23",
       "dte": 5,
       "short_strike": 709.0,
       "long_strike": 704.0,
       "width": 5.0,
-      "credit": 0.98,
-      "delta": -0.254,
-      "max_loss": 4.02,
-      "roi_%": 24.4,
-      "ann_yield_%": 1779.6,
+      "credit": 0.97,
+      "delta": -0.253,
+      "max_loss": 4.03,
+      "roi_%": 24.1,
+      "ann_yield_%": 1757.07,
       "underlying_px": 716.92,
-      "score": 1071.61
+      "score": 1058.07
     },
     {
       "ticker": "AAPL",
@@ -5410,38 +5426,6 @@
       "score": 1054.9
     },
     {
-      "ticker": "SPY",
-      "strategy": "BULL PUT SPR",
-      "expiration": "2026-09-21",
-      "dte": 3,
-      "short_strike": 755.0,
-      "long_strike": 750.0,
-      "width": 5.0,
-      "credit": 0.63,
-      "delta": -0.155,
-      "max_loss": 4.37,
-      "roi_%": 14.4,
-      "ann_yield_%": 1754.0,
-      "underlying_px": 762.6,
-      "score": 1053.77
-    },
-    {
-      "ticker": "SPY",
-      "strategy": "BULL PUT SPR",
-      "expiration": "2026-09-23",
-      "dte": 5,
-      "short_strike": 756.0,
-      "long_strike": 751.0,
-      "width": 5.0,
-      "credit": 0.96,
-      "delta": -0.256,
-      "max_loss": 4.04,
-      "roi_%": 23.8,
-      "ann_yield_%": 1734.65,
-      "underlying_px": 762.6,
-      "score": 1044.69
-    },
-    {
       "ticker": "TSLA",
       "strategy": "BULL PUT SPR",
       "expiration": "2026-09-23",
@@ -5456,6 +5440,22 @@
       "ann_yield_%": 1734.65,
       "underlying_px": 366.2,
       "score": 1043.51
+    },
+    {
+      "ticker": "QQQ",
+      "strategy": "BULL PUT SPR",
+      "expiration": "2026-09-21",
+      "dte": 3,
+      "short_strike": 708.0,
+      "long_strike": 703.0,
+      "width": 5.0,
+      "credit": 0.62,
+      "delta": -0.148,
+      "max_loss": 4.38,
+      "roi_%": 14.2,
+      "ann_yield_%": 1722.22,
+      "underlying_px": 716.92,
+      "score": 1034.53
     },
     {
       "ticker": "AMD",
@@ -5474,6 +5474,22 @@
       "score": 1033.98
     },
     {
+      "ticker": "SPY",
+      "strategy": "BULL PUT SPR",
+      "expiration": "2026-09-23",
+      "dte": 5,
+      "short_strike": 756.0,
+      "long_strike": 751.0,
+      "width": 5.0,
+      "credit": 0.95,
+      "delta": -0.256,
+      "max_loss": 4.05,
+      "roi_%": 23.5,
+      "ann_yield_%": 1712.35,
+      "underlying_px": 762.6,
+      "score": 1031.31
+    },
+    {
       "ticker": "AMD",
       "strategy": "BULL PUT SPR",
       "expiration": "2026-09-23",
@@ -5488,22 +5504,6 @@
       "ann_yield_%": 1712.35,
       "underlying_px": 545.09,
       "score": 1030.78
-    },
-    {
-      "ticker": "QQQ",
-      "strategy": "BULL PUT SPR",
-      "expiration": "2026-09-21",
-      "dte": 3,
-      "short_strike": 708.0,
-      "long_strike": 703.0,
-      "width": 5.0,
-      "credit": 0.61,
-      "delta": -0.148,
-      "max_loss": 4.39,
-      "roi_%": 13.9,
-      "ann_yield_%": 1690.58,
-      "underlying_px": 716.92,
-      "score": 1015.55
     },
     {
       "ticker": "QQQ",
@@ -5618,6 +5618,22 @@
       "score": 913.16
     },
     {
+      "ticker": "SPY",
+      "strategy": "BULL PUT SPR",
+      "expiration": "2026-09-23",
+      "dte": 5,
+      "short_strike": 755.0,
+      "long_strike": 750.0,
+      "width": 5.0,
+      "credit": 0.86,
+      "delta": -0.23,
+      "max_loss": 4.14,
+      "roi_%": 20.8,
+      "ann_yield_%": 1516.43,
+      "underlying_px": 762.6,
+      "score": 913.11
+    },
+    {
       "ticker": "MU",
       "strategy": "BULL PUT SPR",
       "expiration": "2026-09-21",
@@ -5631,22 +5647,6 @@
       "roi_%": 12.4,
       "ann_yield_%": 1503.75,
       "underlying_px": 977.5,
-      "score": 903.02
-    },
-    {
-      "ticker": "SPY",
-      "strategy": "BULL PUT SPR",
-      "expiration": "2026-09-21",
-      "dte": 3,
-      "short_strike": 754.0,
-      "long_strike": 749.0,
-      "width": 5.0,
-      "credit": 0.55,
-      "delta": -0.131,
-      "max_loss": 4.45,
-      "roi_%": 12.4,
-      "ann_yield_%": 1503.75,
-      "underlying_px": 762.6,
       "score": 903.02
     },
     {
@@ -5666,22 +5666,6 @@
       "score": 902.25
     },
     {
-      "ticker": "SPY",
-      "strategy": "BULL PUT SPR",
-      "expiration": "2026-09-23",
-      "dte": 5,
-      "short_strike": 755.0,
-      "long_strike": 750.0,
-      "width": 5.0,
-      "credit": 0.85,
-      "delta": -0.23,
-      "max_loss": 4.15,
-      "roi_%": 20.5,
-      "ann_yield_%": 1495.18,
-      "underlying_px": 762.6,
-      "score": 900.36
-    },
-    {
       "ticker": "META",
       "strategy": "BULL PUT SPR",
       "expiration": "2026-09-23",
@@ -5698,6 +5682,38 @@
       "score": 899.28
     },
     {
+      "ticker": "SPY",
+      "strategy": "BULL PUT SPR",
+      "expiration": "2026-09-21",
+      "dte": 3,
+      "short_strike": 754.0,
+      "long_strike": 749.0,
+      "width": 5.0,
+      "credit": 0.54,
+      "delta": -0.131,
+      "max_loss": 4.46,
+      "roi_%": 12.1,
+      "ann_yield_%": 1473.09,
+      "underlying_px": 762.6,
+      "score": 884.63
+    },
+    {
+      "ticker": "QQQ",
+      "strategy": "BULL PUT SPR",
+      "expiration": "2026-09-21",
+      "dte": 3,
+      "short_strike": 707.0,
+      "long_strike": 702.0,
+      "width": 5.0,
+      "credit": 0.54,
+      "delta": -0.127,
+      "max_loss": 4.46,
+      "roi_%": 12.1,
+      "ann_yield_%": 1473.09,
+      "underlying_px": 716.92,
+      "score": 884.53
+    },
+    {
       "ticker": "QQQ",
       "strategy": "BULL PUT SPR",
       "expiration": "2026-09-22",
@@ -5705,13 +5721,13 @@
       "short_strike": 707.0,
       "long_strike": 702.0,
       "width": 5.0,
-      "credit": 0.7,
+      "credit": 0.69,
       "delta": -0.177,
-      "max_loss": 4.3,
-      "roi_%": 16.3,
-      "ann_yield_%": 1485.47,
+      "max_loss": 4.31,
+      "roi_%": 16.0,
+      "ann_yield_%": 1460.85,
       "underlying_px": 716.92,
-      "score": 893.21
+      "score": 878.43
     },
     {
       "ticker": "NVDA",
@@ -5730,22 +5746,6 @@
       "score": 875.38
     },
     {
-      "ticker": "QQQ",
-      "strategy": "BULL PUT SPR",
-      "expiration": "2026-09-21",
-      "dte": 3,
-      "short_strike": 707.0,
-      "long_strike": 702.0,
-      "width": 5.0,
-      "credit": 0.53,
-      "delta": -0.127,
-      "max_loss": 4.47,
-      "roi_%": 11.9,
-      "ann_yield_%": 1442.58,
-      "underlying_px": 716.92,
-      "score": 866.22
-    },
-    {
       "ticker": "MSFT",
       "strategy": "BULL PUT SPR",
       "expiration": "2026-09-23",
@@ -5760,6 +5760,22 @@
       "ann_yield_%": 1411.22,
       "underlying_px": 497.75,
       "score": 850.61
+    },
+    {
+      "ticker": "QQQ",
+      "strategy": "BULL PUT SPR",
+      "expiration": "2026-09-23",
+      "dte": 5,
+      "short_strike": 707.0,
+      "long_strike": 702.0,
+      "width": 5.0,
+      "credit": 0.81,
+      "delta": -0.211,
+      "max_loss": 4.19,
+      "roi_%": 19.3,
+      "ann_yield_%": 1411.22,
+      "underlying_px": 716.92,
+      "score": 849.51
     },
     {
       "ticker": "SPY",
@@ -5792,22 +5808,6 @@
       "ann_yield_%": 1412.2,
       "underlying_px": 108.8,
       "score": 848.52
-    },
-    {
-      "ticker": "QQQ",
-      "strategy": "BULL PUT SPR",
-      "expiration": "2026-09-23",
-      "dte": 5,
-      "short_strike": 707.0,
-      "long_strike": 702.0,
-      "width": 5.0,
-      "credit": 0.8,
-      "delta": -0.211,
-      "max_loss": 4.2,
-      "roi_%": 19.0,
-      "ann_yield_%": 1390.48,
-      "underlying_px": 716.92,
-      "score": 837.06
     },
     {
       "ticker": "AMD",
@@ -5922,22 +5922,6 @@
       "score": 798.93
     },
     {
-      "ticker": "QQQ",
-      "strategy": "BULL PUT SPR",
-      "expiration": "2026-09-22",
-      "dte": 4,
-      "short_strike": 706.0,
-      "long_strike": 701.0,
-      "width": 5.0,
-      "credit": 0.63,
-      "delta": -0.158,
-      "max_loss": 4.37,
-      "roi_%": 14.4,
-      "ann_yield_%": 1315.5,
-      "underlying_px": 716.92,
-      "score": 790.75
-    },
-    {
       "ticker": "TQQQ",
       "strategy": "BULL PUT SPR",
       "expiration": "2026-09-23",
@@ -5952,6 +5936,22 @@
       "ann_yield_%": 1308.49,
       "underlying_px": 71.38,
       "score": 789.07
+    },
+    {
+      "ticker": "QQQ",
+      "strategy": "BULL PUT SPR",
+      "expiration": "2026-09-22",
+      "dte": 4,
+      "short_strike": 706.0,
+      "long_strike": 701.0,
+      "width": 5.0,
+      "credit": 0.62,
+      "delta": -0.158,
+      "max_loss": 4.38,
+      "roi_%": 14.2,
+      "ann_yield_%": 1291.67,
+      "underlying_px": 716.92,
+      "score": 776.45
     },
     {
       "ticker": "QQQ",
@@ -6002,6 +6002,22 @@
       "score": 774.52
     },
     {
+      "ticker": "QQQ",
+      "strategy": "BULL PUT SPR",
+      "expiration": "2026-09-23",
+      "dte": 5,
+      "short_strike": 706.0,
+      "long_strike": 701.0,
+      "width": 5.0,
+      "credit": 0.74,
+      "delta": -0.192,
+      "max_loss": 4.26,
+      "roi_%": 17.4,
+      "ann_yield_%": 1268.08,
+      "underlying_px": 716.92,
+      "score": 763.15
+    },
+    {
       "ticker": "SPY",
       "strategy": "BULL PUT SPR",
       "expiration": "2026-09-21",
@@ -6016,22 +6032,6 @@
       "ann_yield_%": 1262.33,
       "underlying_px": 762.6,
       "score": 757.62
-    },
-    {
-      "ticker": "QQQ",
-      "strategy": "BULL PUT SPR",
-      "expiration": "2026-09-23",
-      "dte": 5,
-      "short_strike": 706.0,
-      "long_strike": 701.0,
-      "width": 5.0,
-      "credit": 0.73,
-      "delta": -0.191,
-      "max_loss": 4.27,
-      "roi_%": 17.1,
-      "ann_yield_%": 1248.01,
-      "underlying_px": 716.92,
-      "score": 751.08
     },
     {
       "ticker": "SPY",
@@ -6114,6 +6114,22 @@
       "score": 714.05
     },
     {
+      "ticker": "QQQ",
+      "strategy": "BULL PUT SPR",
+      "expiration": "2026-09-22",
+      "dte": 4,
+      "short_strike": 705.0,
+      "long_strike": 700.0,
+      "width": 5.0,
+      "credit": 0.56,
+      "delta": -0.14,
+      "max_loss": 4.44,
+      "roi_%": 12.6,
+      "ann_yield_%": 1150.9,
+      "underlying_px": 716.92,
+      "score": 691.54
+    },
+    {
       "ticker": "SPY",
       "strategy": "BULL PUT SPR",
       "expiration": "2026-09-23",
@@ -6121,13 +6137,13 @@
       "short_strike": 753.0,
       "long_strike": 748.0,
       "width": 5.0,
-      "credit": 0.69,
+      "credit": 0.68,
       "delta": -0.184,
-      "max_loss": 4.31,
-      "roi_%": 16.0,
-      "ann_yield_%": 1168.68,
+      "max_loss": 4.32,
+      "roi_%": 15.7,
+      "ann_yield_%": 1149.07,
       "underlying_px": 762.6,
-      "score": 703.31
+      "score": 691.54
     },
     {
       "ticker": "QQQ",
@@ -6148,18 +6164,18 @@
     {
       "ticker": "QQQ",
       "strategy": "BULL PUT SPR",
-      "expiration": "2026-09-22",
-      "dte": 4,
+      "expiration": "2026-09-21",
+      "dte": 3,
       "short_strike": 705.0,
       "long_strike": 700.0,
       "width": 5.0,
-      "credit": 0.55,
-      "delta": -0.139,
-      "max_loss": 4.45,
-      "roi_%": 12.4,
-      "ann_yield_%": 1127.81,
+      "credit": 0.42,
+      "delta": -0.093,
+      "max_loss": 4.58,
+      "roi_%": 9.2,
+      "ann_yield_%": 1115.72,
       "underlying_px": 716.92,
-      "score": 677.66
+      "score": 669.43
     },
     {
       "ticker": "AMD",
@@ -6176,22 +6192,6 @@
       "ann_yield_%": 1090.8,
       "underlying_px": 545.09,
       "score": 656.15
-    },
-    {
-      "ticker": "QQQ",
-      "strategy": "BULL PUT SPR",
-      "expiration": "2026-09-21",
-      "dte": 3,
-      "short_strike": 705.0,
-      "long_strike": 700.0,
-      "width": 5.0,
-      "credit": 0.41,
-      "delta": -0.092,
-      "max_loss": 4.59,
-      "roi_%": 8.9,
-      "ann_yield_%": 1086.78,
-      "underlying_px": 716.92,
-      "score": 652.07
     },
     {
       "ticker": "TSLA",
@@ -6306,6 +6306,22 @@
       "score": 621.6
     },
     {
+      "ticker": "QQQ",
+      "strategy": "BULL PUT SPR",
+      "expiration": "2026-09-23",
+      "dte": 5,
+      "short_strike": 704.0,
+      "long_strike": 699.0,
+      "width": 5.0,
+      "credit": 0.61,
+      "delta": -0.158,
+      "max_loss": 4.39,
+      "roi_%": 13.9,
+      "ann_yield_%": 1014.35,
+      "underlying_px": 716.92,
+      "score": 610.06
+    },
+    {
       "ticker": "META",
       "strategy": "BULL PUT SPR",
       "expiration": "2026-09-23",
@@ -6330,28 +6346,28 @@
       "long_strike": 699.0,
       "width": 5.0,
       "credit": 0.5,
-      "delta": -0.124,
+      "delta": -0.125,
       "max_loss": 4.5,
       "roi_%": 11.1,
       "ann_yield_%": 1013.89,
       "underlying_px": 716.92,
-      "score": 608.93
+      "score": 608.96
     },
     {
       "ticker": "QQQ",
       "strategy": "BULL PUT SPR",
-      "expiration": "2026-09-23",
-      "dte": 5,
+      "expiration": "2026-09-21",
+      "dte": 3,
       "short_strike": 704.0,
       "long_strike": 699.0,
       "width": 5.0,
-      "credit": 0.6,
-      "delta": -0.158,
-      "max_loss": 4.4,
-      "roi_%": 13.6,
-      "ann_yield_%": 995.45,
+      "credit": 0.38,
+      "delta": -0.079,
+      "max_loss": 4.62,
+      "roi_%": 8.2,
+      "ann_yield_%": 1000.72,
       "underlying_px": 716.92,
-      "score": 598.72
+      "score": 600.43
     },
     {
       "ticker": "INTC",
@@ -6383,22 +6399,6 @@
       "roi_%": 8.0,
       "ann_yield_%": 972.28,
       "underlying_px": 977.5,
-      "score": 583.37
-    },
-    {
-      "ticker": "QQQ",
-      "strategy": "BULL PUT SPR",
-      "expiration": "2026-09-21",
-      "dte": 3,
-      "short_strike": 704.0,
-      "long_strike": 699.0,
-      "width": 5.0,
-      "credit": 0.37,
-      "delta": -0.078,
-      "max_loss": 4.63,
-      "roi_%": 8.0,
-      "ann_yield_%": 972.28,
-      "underlying_px": 716.92,
       "score": 583.37
     },
     {
@@ -6482,6 +6482,22 @@
       "score": 554.99
     },
     {
+      "ticker": "SPY",
+      "strategy": "BULL PUT SPR",
+      "expiration": "2026-09-23",
+      "dte": 5,
+      "short_strike": 751.0,
+      "long_strike": 746.0,
+      "width": 5.0,
+      "credit": 0.56,
+      "delta": -0.147,
+      "max_loss": 4.44,
+      "roi_%": 12.6,
+      "ann_yield_%": 920.72,
+      "underlying_px": 762.6,
+      "score": 553.61
+    },
+    {
       "ticker": "AAPL",
       "strategy": "BULL PUT SPR",
       "expiration": "2026-09-21",
@@ -6512,22 +6528,6 @@
       "ann_yield_%": 915.77,
       "underlying_px": 682.31,
       "score": 549.46
-    },
-    {
-      "ticker": "SPY",
-      "strategy": "BULL PUT SPR",
-      "expiration": "2026-09-23",
-      "dte": 5,
-      "short_strike": 751.0,
-      "long_strike": 746.0,
-      "width": 5.0,
-      "credit": 0.55,
-      "delta": -0.146,
-      "max_loss": 4.45,
-      "roi_%": 12.4,
-      "ann_yield_%": 902.25,
-      "underlying_px": 762.6,
-      "score": 542.5
     },
     {
       "ticker": "QQQ",
@@ -6578,22 +6578,6 @@
       "score": 531.64
     },
     {
-      "ticker": "QQQ",
-      "strategy": "BULL PUT SPR",
-      "expiration": "2026-09-23",
-      "dte": 5,
-      "short_strike": 702.0,
-      "long_strike": 697.0,
-      "width": 5.0,
-      "credit": 0.53,
-      "delta": -0.13,
-      "max_loss": 4.47,
-      "roi_%": 11.9,
-      "ann_yield_%": 865.55,
-      "underlying_px": 716.92,
-      "score": 520.08
-    },
-    {
       "ticker": "MSFT",
       "strategy": "BULL PUT SPR",
       "expiration": "2026-09-21",
@@ -6626,20 +6610,20 @@
       "score": 515.84
     },
     {
-      "ticker": "SPY",
+      "ticker": "QQQ",
       "strategy": "BULL PUT SPR",
       "expiration": "2026-09-23",
       "dte": 5,
-      "short_strike": 750.0,
-      "long_strike": 745.0,
+      "short_strike": 702.0,
+      "long_strike": 697.0,
       "width": 5.0,
       "credit": 0.51,
-      "delta": -0.131,
+      "delta": -0.13,
       "max_loss": 4.49,
       "roi_%": 11.4,
       "ann_yield_%": 829.18,
-      "underlying_px": 762.6,
-      "score": 498.28
+      "underlying_px": 716.92,
+      "score": 498.26
     },
     {
       "ticker": "META",
@@ -6754,20 +6738,20 @@
       "score": 477.08
     },
     {
-      "ticker": "QQQ",
+      "ticker": "SPY",
       "strategy": "BULL PUT SPR",
       "expiration": "2026-09-23",
       "dte": 5,
-      "short_strike": 701.0,
-      "long_strike": 696.0,
+      "short_strike": 750.0,
+      "long_strike": 745.0,
       "width": 5.0,
-      "credit": 0.47,
-      "delta": -0.118,
-      "max_loss": 4.53,
-      "roi_%": 10.4,
-      "ann_yield_%": 757.4,
-      "underlying_px": 716.92,
-      "score": 454.89
+      "credit": 0.49,
+      "delta": -0.13,
+      "max_loss": 4.51,
+      "roi_%": 10.9,
+      "ann_yield_%": 793.13,
+      "underlying_px": 762.6,
+      "score": 476.63
     },
     {
       "ticker": "MU",
@@ -6816,6 +6800,22 @@
       "ann_yield_%": 749.12,
       "underlying_px": 762.6,
       "score": 449.47
+    },
+    {
+      "ticker": "QQQ",
+      "strategy": "BULL PUT SPR",
+      "expiration": "2026-09-23",
+      "dte": 5,
+      "short_strike": 701.0,
+      "long_strike": 696.0,
+      "width": 5.0,
+      "credit": 0.46,
+      "delta": -0.118,
+      "max_loss": 4.54,
+      "roi_%": 10.1,
+      "ann_yield_%": 739.65,
+      "underlying_px": 716.92,
+      "score": 444.24
     },
     {
       "ticker": "QQQ",
@@ -6930,22 +6930,6 @@
       "score": 412.67
     },
     {
-      "ticker": "QQQ",
-      "strategy": "BULL PUT SPR",
-      "expiration": "2026-09-23",
-      "dte": 5,
-      "short_strike": 700.0,
-      "long_strike": 695.0,
-      "width": 5.0,
-      "credit": 0.43,
-      "delta": -0.107,
-      "max_loss": 4.57,
-      "roi_%": 9.4,
-      "ann_yield_%": 686.87,
-      "underlying_px": 716.92,
-      "score": 412.3
-    },
-    {
       "ticker": "META",
       "strategy": "BULL PUT SPR",
       "expiration": "2026-09-23",
@@ -6960,6 +6944,22 @@
       "ann_yield_%": 686.87,
       "underlying_px": 682.31,
       "score": 412.12
+    },
+    {
+      "ticker": "QQQ",
+      "strategy": "BULL PUT SPR",
+      "expiration": "2026-09-23",
+      "dte": 5,
+      "short_strike": 700.0,
+      "long_strike": 695.0,
+      "width": 5.0,
+      "credit": 0.42,
+      "delta": -0.107,
+      "max_loss": 4.58,
+      "roi_%": 9.2,
+      "ann_yield_%": 669.43,
+      "underlying_px": 716.92,
+      "score": 401.83
     },
     {
       "ticker": "QQQ",
@@ -7122,22 +7122,6 @@
       "score": 368.07
     },
     {
-      "ticker": "QQQ",
-      "strategy": "BULL PUT SPR",
-      "expiration": "2026-09-23",
-      "dte": 5,
-      "short_strike": 699.0,
-      "long_strike": 693.0,
-      "width": 6.0,
-      "credit": 0.46,
-      "delta": -0.097,
-      "max_loss": 5.54,
-      "roi_%": 8.3,
-      "ann_yield_%": 606.14,
-      "underlying_px": 716.92,
-      "score": 363.68
-    },
-    {
       "ticker": "TQQQ",
       "strategy": "BULL PUT SPR",
       "expiration": "2026-09-23",
@@ -7172,18 +7156,18 @@
     {
       "ticker": "QQQ",
       "strategy": "BULL PUT SPR",
-      "expiration": "2026-09-21",
-      "dte": 3,
-      "short_strike": 700.0,
-      "long_strike": 695.0,
-      "width": 5.0,
-      "credit": 0.23,
-      "delta": -0.042,
-      "max_loss": 4.77,
-      "roi_%": 4.8,
-      "ann_yield_%": 586.65,
+      "expiration": "2026-09-23",
+      "dte": 5,
+      "short_strike": 699.0,
+      "long_strike": 693.0,
+      "width": 6.0,
+      "credit": 0.45,
+      "delta": -0.097,
+      "max_loss": 5.55,
+      "roi_%": 8.1,
+      "ann_yield_%": 591.89,
       "underlying_px": 716.92,
-      "score": 351.99
+      "score": 355.13
     },
     {
       "ticker": "QQQ",
@@ -7216,6 +7200,22 @@
       "ann_yield_%": 566.38,
       "underlying_px": 762.6,
       "score": 339.83
+    },
+    {
+      "ticker": "QQQ",
+      "strategy": "BULL PUT SPR",
+      "expiration": "2026-09-21",
+      "dte": 3,
+      "short_strike": 700.0,
+      "long_strike": 695.0,
+      "width": 5.0,
+      "credit": 0.22,
+      "delta": -0.041,
+      "max_loss": 4.78,
+      "roi_%": 4.6,
+      "ann_yield_%": 559.97,
+      "underlying_px": 716.92,
+      "score": 335.98
     },
     {
       "ticker": "SPY",
@@ -7346,6 +7346,22 @@
       "score": 312.53
     },
     {
+      "ticker": "QQQ",
+      "strategy": "BULL PUT SPR",
+      "expiration": "2026-09-23",
+      "dte": 5,
+      "short_strike": 697.0,
+      "long_strike": 692.0,
+      "width": 5.0,
+      "credit": 0.33,
+      "delta": -0.08,
+      "max_loss": 4.67,
+      "roi_%": 7.1,
+      "ann_yield_%": 515.85,
+      "underlying_px": 716.92,
+      "score": 309.51
+    },
+    {
       "ticker": "MSFT",
       "strategy": "BULL PUT SPR",
       "expiration": "2026-09-21",
@@ -7394,20 +7410,20 @@
       "score": 299.49
     },
     {
-      "ticker": "SPY",
+      "ticker": "QQQ",
       "strategy": "BULL PUT SPR",
       "expiration": "2026-09-23",
       "dte": 5,
-      "short_strike": 746.0,
-      "long_strike": 741.0,
-      "width": 5.0,
-      "credit": 0.32,
-      "delta": -0.083,
-      "max_loss": 4.68,
-      "roi_%": 6.8,
-      "ann_yield_%": 499.15,
-      "underlying_px": 762.6,
-      "score": 299.49
+      "short_strike": 696.0,
+      "long_strike": 692.0,
+      "width": 4.0,
+      "credit": 0.25,
+      "delta": -0.072,
+      "max_loss": 3.75,
+      "roi_%": 6.7,
+      "ann_yield_%": 486.67,
+      "underlying_px": 716.92,
+      "score": 292.0
     },
     {
       "ticker": "AMD",
@@ -7442,19 +7458,19 @@
       "score": 289.51
     },
     {
-      "ticker": "QQQ",
+      "ticker": "SPY",
       "strategy": "BULL PUT SPR",
       "expiration": "2026-09-23",
       "dte": 5,
-      "short_strike": 697.0,
-      "long_strike": 692.0,
+      "short_strike": 746.0,
+      "long_strike": 741.0,
       "width": 5.0,
       "credit": 0.31,
-      "delta": -0.079,
+      "delta": -0.082,
       "max_loss": 4.69,
       "roi_%": 6.6,
       "ann_yield_%": 482.52,
-      "underlying_px": 716.92,
+      "underlying_px": 762.6,
       "score": 289.51
     },
     {
@@ -7520,22 +7536,6 @@
       "ann_yield_%": 449.47,
       "underlying_px": 682.31,
       "score": 269.68
-    },
-    {
-      "ticker": "QQQ",
-      "strategy": "BULL PUT SPR",
-      "expiration": "2026-09-23",
-      "dte": 5,
-      "short_strike": 696.0,
-      "long_strike": 692.0,
-      "width": 4.0,
-      "credit": 0.23,
-      "delta": -0.072,
-      "max_loss": 3.77,
-      "roi_%": 6.1,
-      "ann_yield_%": 445.36,
-      "underlying_px": 716.92,
-      "score": 267.22
     },
     {
       "ticker": "SPY",
@@ -7610,7 +7610,7 @@
       "long_strike": 690.0,
       "width": 5.0,
       "credit": 0.27,
-      "delta": -0.065,
+      "delta": -0.066,
       "max_loss": 4.73,
       "roi_%": 5.7,
       "ann_yield_%": 416.7,
@@ -7899,13 +7899,13 @@
       "short_strike": 766.0,
       "long_strike": 771.0,
       "width": 5.0,
-      "credit": 0.72,
+      "credit": 0.73,
       "delta": 0.234,
-      "max_loss": 4.28,
-      "roi_%": 16.8,
-      "ann_yield_%": 2046.73,
+      "max_loss": 4.27,
+      "roi_%": 17.1,
+      "ann_yield_%": 2080.02,
       "underlying_px": 762.6,
-      "score": 1231.39
+      "score": 1251.36
     },
     {
       "ticker": "MU",
@@ -8052,6 +8052,22 @@
       "score": 958.82
     },
     {
+      "ticker": "SPY",
+      "strategy": "BEAR CALL SPR",
+      "expiration": "2026-09-21",
+      "dte": 3,
+      "short_strike": 767.0,
+      "long_strike": 772.0,
+      "width": 5.0,
+      "credit": 0.54,
+      "delta": 0.17,
+      "max_loss": 4.46,
+      "roi_%": 12.1,
+      "ann_yield_%": 1473.09,
+      "underlying_px": 762.6,
+      "score": 885.6
+    },
+    {
       "ticker": "AVGO",
       "strategy": "BEAR CALL SPR",
       "expiration": "2026-09-21",
@@ -8066,22 +8082,6 @@
       "ann_yield_%": 1473.09,
       "underlying_px": 347.3,
       "score": 885.55
-    },
-    {
-      "ticker": "SPY",
-      "strategy": "BEAR CALL SPR",
-      "expiration": "2026-09-21",
-      "dte": 3,
-      "short_strike": 767.0,
-      "long_strike": 772.0,
-      "width": 5.0,
-      "credit": 0.53,
-      "delta": 0.169,
-      "max_loss": 4.47,
-      "roi_%": 11.9,
-      "ann_yield_%": 1442.58,
-      "underlying_px": 762.6,
-      "score": 867.27
     },
     {
       "ticker": "AMD",
@@ -8907,13 +8907,13 @@
       "short_strike": 722.0,
       "long_strike": 727.0,
       "width": 5.0,
-      "credit": 0.9,
-      "delta": 0.219,
-      "max_loss": 4.1,
-      "roi_%": 22.0,
-      "ann_yield_%": 2670.73,
+      "credit": 0.89,
+      "delta": 0.217,
+      "max_loss": 4.11,
+      "roi_%": 21.7,
+      "ann_yield_%": 2634.63,
       "underlying_px": 716.92,
-      "score": 1605.41
+      "score": 1583.7
     },
     {
       "ticker": "QQQ",
@@ -8923,13 +8923,13 @@
       "short_strike": 723.0,
       "long_strike": 728.0,
       "width": 5.0,
-      "credit": 0.99,
+      "credit": 1.0,
       "delta": 0.233,
-      "max_loss": 4.01,
-      "roi_%": 24.7,
-      "ann_yield_%": 2252.81,
+      "max_loss": 4.0,
+      "roi_%": 25.0,
+      "ann_yield_%": 2281.25,
       "underlying_px": 716.92,
-      "score": 1355.01
+      "score": 1372.08
     },
     {
       "ticker": "META",
@@ -8971,13 +8971,13 @@
       "short_strike": 724.0,
       "long_strike": 729.0,
       "width": 5.0,
-      "credit": 0.83,
+      "credit": 0.84,
       "delta": 0.194,
-      "max_loss": 4.17,
-      "roi_%": 19.9,
-      "ann_yield_%": 1816.25,
+      "max_loss": 4.16,
+      "roi_%": 20.2,
+      "ann_yield_%": 1842.55,
       "underlying_px": 716.92,
-      "score": 1092.1
+      "score": 1107.88
     },
     {
       "ticker": "TQQQ",
@@ -9003,13 +9003,13 @@
       "short_strike": 725.0,
       "long_strike": 730.0,
       "width": 5.0,
-      "credit": 0.9,
+      "credit": 0.91,
       "delta": 0.208,
-      "max_loss": 4.1,
-      "roi_%": 22.0,
-      "ann_yield_%": 1602.44,
+      "max_loss": 4.09,
+      "roi_%": 22.2,
+      "ann_yield_%": 1624.21,
       "underlying_px": 716.92,
-      "score": 964.16
+      "score": 977.23
     },
     {
       "ticker": "META",
@@ -9036,12 +9036,12 @@
       "long_strike": 729.0,
       "width": 5.0,
       "credit": 0.57,
-      "delta": 0.131,
+      "delta": 0.13,
       "max_loss": 4.43,
       "roi_%": 12.9,
       "ann_yield_%": 1565.46,
       "underlying_px": 716.92,
-      "score": 940.05
+      "score": 940.03
     },
     {
       "ticker": "QQQ",
@@ -9052,28 +9052,12 @@
       "long_strike": 730.0,
       "width": 5.0,
       "credit": 0.69,
-      "delta": 0.16,
+      "delta": 0.159,
       "max_loss": 4.31,
       "roi_%": 16.0,
       "ann_yield_%": 1460.85,
       "underlying_px": 716.92,
-      "score": 878.01
-    },
-    {
-      "ticker": "QQQ",
-      "strategy": "BEAR CALL SPR",
-      "expiration": "2026-09-23",
-      "dte": 5,
-      "short_strike": 726.0,
-      "long_strike": 731.0,
-      "width": 5.0,
-      "credit": 0.78,
-      "delta": 0.178,
-      "max_loss": 4.22,
-      "roi_%": 18.5,
-      "ann_yield_%": 1349.29,
-      "underlying_px": 716.92,
-      "score": 811.52
+      "score": 877.98
     },
     {
       "ticker": "META",
@@ -9090,6 +9074,22 @@
       "ann_yield_%": 1351.85,
       "underlying_px": 682.31,
       "score": 811.33
+    },
+    {
+      "ticker": "QQQ",
+      "strategy": "BEAR CALL SPR",
+      "expiration": "2026-09-23",
+      "dte": 5,
+      "short_strike": 726.0,
+      "long_strike": 731.0,
+      "width": 5.0,
+      "credit": 0.77,
+      "delta": 0.177,
+      "max_loss": 4.23,
+      "roi_%": 18.2,
+      "ann_yield_%": 1328.84,
+      "underlying_px": 716.92,
+      "score": 799.23
     },
     {
       "ticker": "META",
@@ -9110,34 +9110,34 @@
     {
       "ticker": "QQQ",
       "strategy": "BEAR CALL SPR",
-      "expiration": "2026-09-22",
-      "dte": 4,
-      "short_strike": 726.0,
-      "long_strike": 731.0,
-      "width": 5.0,
-      "credit": 0.57,
-      "delta": 0.127,
-      "max_loss": 4.43,
-      "roi_%": 12.9,
-      "ann_yield_%": 1174.1,
-      "underlying_px": 716.92,
-      "score": 705.13
-    },
-    {
-      "ticker": "QQQ",
-      "strategy": "BEAR CALL SPR",
       "expiration": "2026-09-21",
       "dte": 3,
       "short_strike": 725.0,
       "long_strike": 730.0,
       "width": 5.0,
-      "credit": 0.43,
+      "credit": 0.44,
       "delta": 0.097,
-      "max_loss": 4.57,
-      "roi_%": 9.4,
-      "ann_yield_%": 1144.78,
+      "max_loss": 4.56,
+      "roi_%": 9.6,
+      "ann_yield_%": 1173.98,
       "underlying_px": 716.92,
-      "score": 686.87
+      "score": 704.39
+    },
+    {
+      "ticker": "QQQ",
+      "strategy": "BEAR CALL SPR",
+      "expiration": "2026-09-22",
+      "dte": 4,
+      "short_strike": 726.0,
+      "long_strike": 731.0,
+      "width": 5.0,
+      "credit": 0.56,
+      "delta": 0.127,
+      "max_loss": 4.44,
+      "roi_%": 12.6,
+      "ann_yield_%": 1150.9,
+      "underlying_px": 716.92,
+      "score": 691.22
     },
     {
       "ticker": "QQQ",
@@ -9195,13 +9195,13 @@
       "short_strike": 728.0,
       "long_strike": 733.0,
       "width": 5.0,
-      "credit": 0.56,
-      "delta": 0.124,
-      "max_loss": 4.44,
-      "roi_%": 12.6,
-      "ann_yield_%": 920.72,
+      "credit": 0.55,
+      "delta": 0.123,
+      "max_loss": 4.45,
+      "roi_%": 12.4,
+      "ann_yield_%": 902.25,
       "underlying_px": 716.92,
-      "score": 553.03
+      "score": 541.93
     },
     {
       "ticker": "TQQQ",
@@ -9243,13 +9243,13 @@
       "short_strike": 729.0,
       "long_strike": 734.0,
       "width": 5.0,
-      "credit": 0.45,
-      "delta": 0.1,
-      "max_loss": 4.55,
-      "roi_%": 9.9,
-      "ann_yield_%": 721.98,
+      "credit": 0.46,
+      "delta": 0.101,
+      "max_loss": 4.54,
+      "roi_%": 10.1,
+      "ann_yield_%": 739.65,
       "underlying_px": 716.92,
-      "score": 433.19
+      "score": 443.81
     },
     {
       "ticker": "META",
@@ -9339,13 +9339,13 @@
       "short_strike": 730.0,
       "long_strike": 735.0,
       "width": 5.0,
-      "credit": 0.38,
+      "credit": 0.37,
       "delta": 0.082,
-      "max_loss": 4.62,
-      "roi_%": 8.2,
-      "ann_yield_%": 600.43,
+      "max_loss": 4.63,
+      "roi_%": 8.0,
+      "ann_yield_%": 583.37,
       "underlying_px": 716.92,
-      "score": 360.26
+      "score": 350.02
     },
     {
       "ticker": "QQQ",
@@ -9579,13 +9579,13 @@
       "short_strike": 767.0,
       "long_strike": 772.0,
       "width": 5.0,
-      "credit": 0.78,
-      "delta": 0.235,
-      "max_loss": 4.22,
-      "roi_%": 18.5,
-      "ann_yield_%": 1686.61,
+      "credit": 0.8,
+      "delta": 0.236,
+      "max_loss": 4.2,
+      "roi_%": 19.0,
+      "ann_yield_%": 1738.1,
       "underlying_px": 762.6,
-      "score": 1015.34
+      "score": 1046.26
     },
     {
       "ticker": "SPY",
@@ -9659,13 +9659,13 @@
       "short_strike": 768.0,
       "long_strike": 773.0,
       "width": 5.0,
-      "credit": 0.62,
+      "credit": 0.63,
       "delta": 0.183,
-      "max_loss": 4.38,
-      "roi_%": 14.2,
-      "ann_yield_%": 1291.67,
+      "max_loss": 4.37,
+      "roi_%": 14.4,
+      "ann_yield_%": 1315.5,
       "underlying_px": 762.6,
-      "score": 777.08
+      "score": 791.38
     },
     {
       "ticker": "SPY",
@@ -9675,13 +9675,13 @@
       "short_strike": 769.0,
       "long_strike": 774.0,
       "width": 5.0,
-      "credit": 0.67,
-      "delta": 0.19,
-      "max_loss": 4.33,
-      "roi_%": 15.5,
-      "ann_yield_%": 1129.56,
+      "credit": 0.68,
+      "delta": 0.191,
+      "max_loss": 4.32,
+      "roi_%": 15.7,
+      "ann_yield_%": 1149.07,
       "underlying_px": 762.6,
-      "score": 679.99
+      "score": 691.72
     },
     {
       "ticker": "NVDA",
@@ -9948,12 +9948,12 @@
       "long_strike": 775.0,
       "width": 5.0,
       "credit": 0.55,
-      "delta": 0.153,
+      "delta": 0.152,
       "max_loss": 4.45,
       "roi_%": 12.4,
       "ann_yield_%": 902.25,
       "underlying_px": 762.6,
-      "score": 542.68
+      "score": 542.65
     },
     {
       "ticker": "NVDA",
